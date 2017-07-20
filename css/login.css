@@ -1,0 +1,124 @@
+.login {
+  padding: 1.6rem 1.2rem 0;
+  background: url(../img/login/login_logo_02@3x.png) no-repeat right top;
+  background-size: 40%;
+}
+.login .login-logo {
+  display: block;
+  width: 50%;
+  margin-bottom: 1.2rem;
+}
+.login .reg-box .title {
+  display: inline-block;
+  font-size: 0.96rem;
+  padding-bottom: 0.24rem;
+  margin-bottom: 1.8rem;
+  background: url(../img/login/wap_news_tab_selected@3x.png) no-repeat center bottom;
+  background-size: auto 0.24rem;
+}
+.login .reg-box .pore {
+  display: block;
+  position: relative;
+  margin-bottom: 0.6rem;
+}
+.login .reg-box .pore .clean-input {
+  display: none;
+  position: absolute;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 0.4rem;
+  top: 50%;
+  right: 0;
+  margin-top: -0.4rem;
+  background: rgba(0, 0, 0, 0.1) url(../img/wap_ly_close@3x.png) no-repeat center;
+  background-size: 0.36rem;
+}
+.login .reg-box .login-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 0.04rem solid #e5e6ea;
+  height: 1.6rem;
+  padding-left: 1.2rem;
+  font-weight: normal;
+  transition: all 0.3s;
+}
+.login .reg-box .get-code {
+  position: absolute;
+  top: 0.2rem;
+  right: 0;
+  border: none;
+  outline: none;
+  color: #FFFFFF;
+  line-height: 0.92rem;
+  font-weight: normal;
+  background-color: #ffa56d;
+  background: linear-gradient(to right, #ffa56d, #fe8235);
+}
+.login .reg-box .username {
+  background: url(../img/login/wap_ly_username@3x.png) no-repeat left center;
+}
+.login .reg-box .code {
+  background: url(../img/login/wap_ly_verify@3x.png) no-repeat left center;
+}
+.login .reg-box .password {
+  background: url(../img/login/wap_ly_password@3x.png) no-repeat left center;
+}
+.login .reg-box .btn-submit {
+  display: block;
+  text-align: center;
+  border: 0.08rem solid #2a3342;
+  outline: none;
+  width: 100%;
+  color: #2a3342;
+  line-height: 1.28rem;
+  background-color: #FFFFFF;
+  text-decoration: none;
+}
+.login .reg-ft {
+  text-align: center;
+  margin-top: 1.2rem;
+}
+.login .reg-ft span {
+  color: #878e9a;
+}
+.login .reg-ft a {
+  text-decoration: none;
+}
+.login .reg {
+  color: #878e9a;
+  position: relative;
+  padding-right: 0.2rem;
+}
+.login .reg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0.04rem;
+  height: 0.64rem;
+  background-color: #878e9a;
+}
+.login .tip-other-way {
+  text-align: center;
+  color: #878e9a;
+  margin: 1.2rem 0;
+}
+.login .login-list .login-item {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.login .login-list .login-item a {
+  display: inline-block;
+  width: 1.72rem;
+  height: 1.72rem;
+}
+.login .login-list .login-item .weibo-icon {
+  background: url(../img/login/weibo@3x.png) no-repeat center;
+  background-size: contain;
+}
+.login .login-list .login-item .qq-icon {
+  background: url(../img/login/qq@3x.png) no-repeat center;
+  background-size: contain;
+}

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!--视口宽度为设备宽度，不能缩放-->
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		<!--是否禁止识别手机和邮箱-->
+		<meta name="format-detection" content="telephone=yes, email=no" />
+		<title>猎云网 | 寻求报道</title>
+		<link rel="icon" href="img/wap_drop_logo@3x.png" type="image/x-icon"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/com.css" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script type="text/javascript">
+		(function(){
+		    	var html = document.documentElement;
+		    	var hWidth = html.getBoundingClientRect().width;
+//		    	console.log( hWidth );
+				html.style.fontSize = hWidth/15 + "px";
+//				1rem
+		    })()
+		</script>
+	</head>
+	<body>
+		<!--头部-->
+		<header class="navbar-header">
+			<a href="search.html" class="btn-square search"></a>
+			<a href="index.html" class="logo">
+				<img src="img/ly_logo.png" alt="" />
+			</a>
+			<div class="btn-square menu"></div>
+			<div class="drop-menu">
+				<div class="menu-box">
+					<ul class="clearfix">
+						<li><a href="javascript:;">资讯</a></li>
+						<li><a href="news.html">快讯</a></li>
+						<li><a href="javascript:;">创投爆料</a></li>
+						<li><a href="project.html">投融资</a></li>
+						<li><a href="activity.html">活动</a></li>
+						<li><a href="investor.html">投资人</a></li>
+						<li><a href="javascript:;">众筹</a></li>
+						<li><a href="javascript:;">孵化器</a></li>
+						<li><a href="javascript:;">ONE</a></li>
+						<li><a href="javascript:;">寻求报道</a></li>
+						<li><a href="javascript:;">寻求融资</a></li>
+						<li><a href="javascript:;">发布融资消息</a></li>
+					</ul>
+					<ul class="no-logo clearfix">
+						<li><a href="login.html">登录</a></li>
+						<li><a href="register.html">注册</a></li>
+					</ul>
+					<div class="down clearfix">
+						<a href="javascript:;" class="btn-down pull-right">下载猎云App</a>
+						<span>用心服务创业者</span>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--内容主体-->
+		<section class="content">
+			<form action="#" class="report-form">
+				<div class="lyw-container">
+					<label class="form-group pt20">
+						<p class="form-title">公司名称*</p>
+						<input class="form-control" type="text" placeholder="如：北京猎云万罗科技有限公司"/>
+					</label>
+					<label class="form-group">
+						<p class="form-title">项目名称*</p>
+						<input class="form-control" type="text" placeholder="如：猎云网"/>
+					</label>
+					<label class="form-group">
+						<p class="form-title">行业*</p>
+						<ul class="industry-list row">
+                            <li class="col-sm-3"><a href="javascript:;" data-id="1">教育培训</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="2">金融</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="3">汽车交通</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="4">房产家居</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="5">医疗健康</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="6">旅游户外</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="7">本地生活</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="8">游戏动漫</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="9">广告营销</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="10">智能硬件</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="11">体育</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="12">企业服务</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="13">社交社区</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="14">电商</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="15">工具软件</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="18">媒体</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="19">物流</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="21">虚拟现实</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="22">泛娱乐</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="23">独立开发者</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="24">B2B</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="25">农业</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="26">招聘</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="27">内容</a></li>
+						</ul>
+					</label>
+					<label class="form-group">
+				        <p class="form-title">城市*</p>
+				        <ul class="city-list row">
+				            <li class="col-sm-6">
+				                <select class="form-control lyw-select">
+				                    <option value="">请选择</option>
+                                    <option value="2">北京市</option>
+                                    <option value="23">天津市</option>
+                                    <option value="44">河北省</option>
+                                    <option value="239">山西省</option>
+                                    <option value="381">内蒙古自治区</option>
+                                    <option value="503">辽宁省</option>
+                                    <option value="632">吉林省</option>
+                                    <option value="710">黑龙江省</option>
+                                    <option value="868">上海市</option>
+                                    <option value="890">江苏省</option>
+                                    <option value="1023">浙江省</option>
+                                    <option value="1136">安徽省</option>
+                                    <option value="1276">福建省</option>
+                                    <option value="1380">江西省</option>
+                                    <option value="1502">山东省</option>
+                                    <option value="1677">河南省</option>
+                                    <option value="1873">湖北省</option>
+                                    <option value="2002">湖南省</option>
+                                    <option value="2152">广东省</option>
+                                    <option value="2318">广西壮族自治区</option>
+                                    <option value="2456">海南省</option>
+                                    <option value="2485">重庆市</option>
+                                    <option value="2528">四川省</option>
+                                    <option value="2749">贵州省</option>
+                                    <option value="2850">云南省</option>
+                                    <option value="3004">西藏自治区</option>
+                                    <option value="3086">陕西省</option>
+                                    <option value="3214">甘肃省</option>
+                                    <option value="3327">青海省</option>
+                                    <option value="3383">宁夏回族自治区</option>
+                                    <option value="3415">新疆维吾尔自治区</option>
+                                </select>
+				            </li>
+				            <li class="col-sm-6">
+				                <select class="form-control lyw-select" >
+				                	<option value="">请选择</option>
+				                	<option value="45">石家庄市</option>
+				                	<option value="70">唐山市</option>
+				                	<option value="86">秦皇岛市</option>
+				                	<option value="95">邯郸市</option>
+				                	<option value="116">邢台市</option>
+				                	<option value="137">保定市</option>
+				                	<option value="164">张家口市</option>
+				                	<option value="183">承德市</option>
+				                	<option value="196">沧州市</option>
+				                	<option value="214">廊坊市</option>
+				                	<option value="226">衡水市</option>
+				                </select>
+				            </li>
+				        </ul>
+				    </label>
+					<label class="form-group">
+						<p class="form-title">融资阶段*</p>
+						<ul class="industry-list row">
+                            <li class="col-sm-3"><a href="javascript:;" data-id="1">种子</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="2">天使轮</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="3">Pre-A轮</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="4">A轮</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="5">B轮</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="6">C轮</a></li>
+                            <li class="col-sm-3"><a href="javascript:;" data-id="7">D轮</a></li>
+
+                          </ul>
+					</label>
+					<label class="form-group">
+						<p class="form-title">公司简介*</p>
+						<textarea class="form-control" rows="4" placeholder="请输入简介"/></textarea>
+					</label>
+					<label class="form-group">
+						<p class="form-title">联系方式*</p>
+						<input class="form-control mb12" type="text" placeholder="姓名"/>
+						<input class="form-control mb12" type="text" placeholder="手机号码"/>
+						<input class="form-control mb12" type="text" placeholder="微信"/>
+					</label>
+					<label class="form-group">
+						<p class="form-title">是否有官网*</p>
+						<ul class="industry-list row city-list">
+							<li class="col-sm-6"><a href="javascript:;">是</a></li>
+							<li class="col-sm-6"><a href="javascript:;">否</a></li>
+						</ul>
+					</label>
+					<label class="form-group">
+						<p class="form-title">是否有APP*</p>
+						<ul class="industry-list row city-list">
+							<li class="col-sm-6"><a href="javascript:;">是</a></li>
+							<li class="col-sm-6"><a href="javascript:;">否</a></li>
+						</ul>
+					</label>
+					<label class="form-group">
+						<p class="form-title">是否有公众号*</p>
+						<ul class="industry-list row city-list">
+							<li class="col-sm-6"><a href="javascript:;">是</a></li>
+							<li class="col-sm-6"><a href="javascript:;">否</a></li>
+						</ul>
+					</label>
+					<label class="form-group">
+						<p class="form-title">验证码*</p>
+						<input class="form-control" type="text" placeholder="请输入下侧验证码"/>
+					</label>
+					<label class="form-group">
+				        <input type="submit" class="btn btn-primary fs16" value="提交">
+				    </label>
+				</div>
+			</form>
+		</section>
+		<!--底部信息-->
+		<footer class="footer">
+			<a href="javascript" class="ft-logo">
+				<img src="img/ly_logo.png"/>
+				<p>用心服务创业者</p>
+			</a>
+			<ul class="ft-link">
+				<li><a href="javascript:;">关于我们</a></li>
+				<li><a href="javascript:;">联系我们</a></li>
+				<li><a href="javascript:;">商务合作</a></li>
+				<li><a href="javascript:;">友情链接</a></li>
+				<li><a href="javascript:;">加入我们</a></li>
+				<li><a href="javascript:;">客户端</a></li>
+			</ul>
+			<ul class="ft-city">
+				<li><a href="javascript:;">北京</a></li>
+				<li><a href="javascript:;">成都</a></li>
+				<li><a href="javascript:;">杭州</a></li>
+				<li><a href="javascript:;">上海</a></li>
+				<li><a href="javascript:;">深圳</a></li>
+				<li><a href="javascript:;">西安</a></li>
+				<li><a href="javascript:;">武汉</a></li>
+				<li><a href="javascript:;">厦门</a></li>
+				<li><a href="javascript:;">广州</a></li>
+				<li><a href="javascript:;">福州</a></li>
+			</ul>
+			<div class="copy-right">
+		        <p>Copyright © 2015 猎云网.All Rights Reserved.</p>
+		        <p><a href="javascript:;">京ICP备 13008241 号</a>. 京公网安备11010802011824号</p>
+		    </div>
+		</footer>
+		<script src="js/comon.js" type="text/javascript"></script>
+	</body>
+</html>

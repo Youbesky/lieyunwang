@@ -1,0 +1,139 @@
+@r:50rem;
+
+//注册页面
+.login{
+    padding: 80/@r 60/@r 0;
+    background: url(../img/login/login_logo_02@3x.png) no-repeat right top;
+    background-size: 40%;
+    .login-logo{
+        display: block;
+        width: 50%;
+        margin-bottom: 60/@r;
+    }
+    .reg-box{
+        .title{
+            display: inline-block;
+            font-size: 48/@r;
+            padding-bottom: 12/@r;
+            margin-bottom: 90/@r;
+            background: url(../img/login/wap_news_tab_selected@3x.png) no-repeat center bottom;
+            background-size: auto 12/@r;
+        }
+        .pore{
+            display: block;
+            position: relative;
+            margin-bottom: 30/@r;
+            .clean-input{
+                display: none;
+                position: absolute;
+                width: 40/@r;
+                height: 40/@r;
+                border-radius: 20/@r;
+                top: 50%;
+                right: 0;
+                margin-top: -20/@r;
+                background: rgba(0,0,0,0.1) url(../img/wap_ly_close@3x.png) no-repeat center;
+                background-size: 18/@r;
+            }
+        }
+        .login-input{
+            width: 100%;
+            border: none;
+            outline: none;
+            border-bottom: 2/@r solid #e5e6ea;
+            height: 80/@r;
+            padding-left: 60/@r;
+            font-weight: normal;
+            transition: all 0.3s;
+        }
+        .get-code{
+            position: absolute;
+            top: 10/@r;
+            right: 0;
+            border: none;
+            outline: none;
+            color: #FFFFFF;
+            line-height: 46/@r;
+            font-weight: normal;
+            background-color: #ffa56d;
+            background: linear-gradient(to right,#ffa56d,#fe8235);
+        }
+        .username{
+            background: url(../img/login/wap_ly_username@3x.png) no-repeat left center;
+//          background-size: auto 40/@r;
+        }
+        .code{
+            background: url(../img/login/wap_ly_verify@3x.png) no-repeat left center;
+//          background-size: auto 40/@r;
+        }
+        .password{
+            background: url(../img/login/wap_ly_password@3x.png) no-repeat left center;
+//          background-size: auto 40/@r;
+        }
+        .btn-submit{
+            display: block;
+            text-align: center;
+            border: 4/@r solid #2a3342;
+            outline: none;
+            width: 100%;
+            color: #2a3342;
+            line-height: 64/@r;
+            background-color: #FFFFFF;
+            text-decoration: none;
+        }
+    }
+    .reg-ft{
+        text-align: center;
+        margin-top: 60/@r;
+        span{
+            color: #878e9a;
+        }
+        a{
+            text-decoration: none;
+        }
+    }
+    
+}
+
+//登录页面
+.login{
+    .reg{
+        color: #878e9a;
+        position: relative;
+        padding-right: 10/@r;
+        &:after{
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 2/@r;
+            height: 32/@r;
+            background-color: #878e9a;
+        }
+    }
+    .tip-other-way{
+        text-align: center;
+        color: #878e9a;
+        margin: 60/@r 0;
+    }
+    .login-list{
+        .login-item{
+            float: left;
+            width: 50%;
+            text-align: center;
+            a{
+                display: inline-block;
+                width: 86/@r;
+                height: 86/@r;
+            }
+            .weibo-icon{
+                background: url(../img/login/weibo@3x.png) no-repeat center;
+                background-size: contain;
+            }
+            .qq-icon{
+                background: url(../img/login/qq@3x.png) no-repeat center;
+                background-size: contain;
+            }
+        }
+    }
+}

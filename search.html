@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!--视口宽度为设备宽度，不能缩放-->
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		<!--是否禁止识别手机和邮箱-->
+		<meta name="format-detection" content="telephone=yes, email=no" />
+		<title>猎云网 | 搜索</title>
+		<link rel="icon" href="img/wap_drop_logo@3x.png" type="image/x-icon"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/com.css" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script type="text/javascript">
+		(function(){
+		    	var html = document.documentElement;
+		    	var hWidth = html.getBoundingClientRect().width;
+//		    	console.log( hWidth );
+				html.style.fontSize = hWidth/15 + "px";
+//				1rem
+		    })()
+		</script>
+	</head>
+	<body>
+		<div class="lyw-container pdt">
+			<div class="search-box">
+				<input class="search-input" type="text" placeholder="请输入搜索内容"/>
+				<span class="clean-input"></span>
+				<span class="search-cancel">取消</span>
+			</div>
+			<div class="search-tip">
+				<div class="search-title">热搜词</div>
+				<ul class="search-list">
+					<li><a href="javascript:;">婷婷姐姐</a></li>
+					<li><a href="javascript:;">磨铁图书</a></li>
+					<li><a href="javascript:;">B轮</a></li>
+					<li><a href="javascript:;">新零售</a></li>
+					<li><a href="javascript:;">ZUS</a></li>
+					<li><a href="javascript:;">检测漏气</a></li>
+					<li><a href="javascript:;">糖尿病</a></li>
+					<li><a href="javascript:;">采血</a></li>
+					<li><a href="javascript:;">大健康</a></li>
+					<li><a href="javascript:;">王凯歆</a></li>
+					<li><a href="javascript:;">创业</a></li>
+					<li><a href="javascript:;">印度</a></li>
+				</ul>
+			</div>
+		</div>
+		<script>
+			$(function(){
+				//显示消除全部的按钮
+				$('.search-input').keyup(function(){
+					if($('.search-input').val()!=''){
+						$('.clean-input').fadeIn();
+					}else{
+						$('.clean-input').fadeOut();
+					}
+				});
+				//消除已经输入的内容
+				$('.clean-input').click(function(){
+					$('.search-input').val('');
+					$('.clean-input').fadeOut();
+				});
+				//搜索取消返回上一个页面，类似浏览器的后退功能
+				$('.search-cancel').click(function(){
+					window.history.back();
+				});
+			});
+		</script>
+	</body>
+</html>
